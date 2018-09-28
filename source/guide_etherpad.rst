@@ -41,11 +41,11 @@ Your URL needs to be setup:
 Installation
 ============
 
-First get the Etherpad Lite source code from Github_, be sure to replace the pseudo version number ``66.6.6`` here with the latest version number from the release feed_:
+First get the Etherpad Lite source code from Github_:
 
 .. code-block:: console
 
-  [isabell@stardust ~]$ git clone --branch release/66.6.6 https://github.com/ether/etherpad-lite ~/etherpad
+  [isabell@stardust ~]$ git clone https://github.com/ether/etherpad-lite ~/etherpad
   Cloning into '/home/isabell/etherpad'...
   remote: Counting objects: 29789, done.
   remote: Compressing objects: 100% (14/14), done.
@@ -229,6 +229,6 @@ Then you need to restart the service daemon, so the new code is used by the webs
 
 ----
 
-Tested with Etherpad Lite 1.6.3 and Uberspace 7.1.1
+Tested with Etherpad Lite 1.7.0 and Uberspace 7.1.13.0
 
 .. authors::
